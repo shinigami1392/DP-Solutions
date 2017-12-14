@@ -3,7 +3,7 @@ package dp.solutions.easy.leetcode.maximumsubarray;
 /**
  * @author https://github.com/shinigami1392 [Pushkar Ladhe]
  *
- * Dynamic Programming solution for finding subarray having max sum
+ * Dynamic Programming solution for finding subarray having max sum (Leetcode: 53)
  */
 
 public class MaximumSubarray {

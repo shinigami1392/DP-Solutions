@@ -3,7 +3,7 @@ package dp.solutions.easy.leetcode.rangesum;
 /**
  * @author https://github.com/shinigami1392 [Pushkar Ladhe]
  *
- * Dynamic Programming solution to find sum of elements in an array in a given range.
+ * Dynamic Programming solution to find sum of elements in an array in a given range. (Leetcode: 303)
  */
 
 
