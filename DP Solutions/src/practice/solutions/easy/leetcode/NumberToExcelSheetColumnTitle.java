@@ -38,6 +38,6 @@ public class NumberToExcelSheetColumnTitle {
 	    
 	    public static void main(String[] args) {
 			NumberToExcelSheetColumnTitle n = new NumberToExcelSheetColumnTitle();
-			System.out.println(n.reverse(-2147483648));
+			System.out.println(n.convertToTitle(8));
 		}
 }

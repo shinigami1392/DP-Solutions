@@ -1,5 +1,11 @@
 package practice.solutions.easy.leetcode;
 
+/**
+ * @author https://github.com/shinigami1392 [Pushkar Ladhe]
+ *
+ * Dynamic Programming solution for reaching a specific sum using minimum coins 
+ */
+
 public class AddBinary {
 	public String addBinary(String a, String b) {
         StringBuffer aSB = new StringBuffer(a);
