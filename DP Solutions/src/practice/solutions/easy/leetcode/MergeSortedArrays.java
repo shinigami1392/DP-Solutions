@@ -27,18 +27,5 @@ public class MergeSortedArrays {
         	System.out.println(nums1[k]);
         }
     }
-	
-	public static void main(String[] args) {
-		int[] nums1 = new int[5];
-		int[] nums2 = new int[2];
-		
-		nums1[0] = 1;
-		nums1[1] = 5;
-		nums1[2] = 8;
-		
-		nums2[0] = 3;
-		nums2[1] = 7;
-		MergeSortedArrays ms = new MergeSortedArrays();
-		ms.merge(nums1, 3, nums2, 2);
-	}
+
 }

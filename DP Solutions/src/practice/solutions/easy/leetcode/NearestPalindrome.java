@@ -19,15 +19,8 @@ public class NearestPalindrome {
 			flag1 = false;
 		}
 		test = test-1;
-		
-		///boolean flag2 = false;
-		/*if(test.toString().length()!=n.length() || test%100 == 0 || n.length()<=2 || (test+2)%100 == 0){
-			flag1 = true;
-		}*/
 		test = test+1;
-//		if(test%100==0){
-//			flag2 = true;
-//		}
+
         if(!sb.toString().equals(sb.reverse().toString()) && !flag1){
         	sb = new StringBuffer(n);
 			if(n.length() == 1){
@@ -231,7 +224,7 @@ public class NearestPalindrome {
 		}
 		return sol;
 	}
-	
+
 	public static void main(String[] args) {
 		NearestPalindrome np = new NearestPalindrome();
 		System.out.println(np.nearestPalindromeDP("1234576754"));

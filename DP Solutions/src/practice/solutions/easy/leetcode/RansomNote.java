@@ -18,9 +18,4 @@ public class RansomNote {
 		}
 		return flag;
 	}
-	
-	public static void main(String[] args) {
-		RansomNote rn = new RansomNote();
-		System.out.println(rn.canConstruct("aa", "ab"));
-	}
 }
