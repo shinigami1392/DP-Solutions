@@ -15,9 +15,5 @@ public class IsomorphicStrings {
         }
         return false;
     }
-
-    public static void main(String args[]){
-        IsomorphicStrings is = new IsomorphicStrings();
-        System.out.println(is.isIsomorphic("abb","ded"));
-    }
+    
 }
