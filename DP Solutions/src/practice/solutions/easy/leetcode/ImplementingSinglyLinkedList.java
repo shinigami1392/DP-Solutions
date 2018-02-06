@@ -43,7 +43,7 @@ public class ImplementingSinglyLinkedList {
         return head;
 
     }
-    
+
     void removeFromEnd(ListNode head){
         ListNode n = head;
         ListNode prev = head;
