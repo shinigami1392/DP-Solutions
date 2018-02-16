@@ -227,7 +227,7 @@ public class NearestPalindrome {
 
 	public static void main(String[] args) {
 		NearestPalindrome np = new NearestPalindrome();
-		System.out.println(np.nearestPalindromeDP("1234576754"));
+		//System.out.println(np.nearestPalindromeDP("1234576754"));
 		System.out.println(np.nearestPalindromic("360287970189639800"));
 	}
 }
