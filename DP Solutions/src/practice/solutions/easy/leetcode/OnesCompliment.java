@@ -13,9 +13,4 @@ public class OnesCompliment {
 			}
 			return Integer.parseInt(sb.toString(),2);
 	    }
-	
-	public static void main(String[] args) {
-		OnesCompliment oc = new OnesCompliment();
-		System.out.println( oc.findComplement(1));
-	}
 }
