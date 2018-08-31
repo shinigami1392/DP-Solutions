@@ -21,6 +21,6 @@ public class DistributingCandies {
 
 	public static void main(String[] args) {
 		DistributingCandies dc = new DistributingCandies();
-		System.out.println(dc.distributeCandies(new int[] {1,2,2,2}));
+		System.out.println(dc.distributeCandies(new int[] {1,1,2,1}));
 	}
 }

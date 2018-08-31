@@ -42,11 +42,6 @@ public class LevelOrderTraversalBinaryTree {
 				thisLevel.add(queue.poll().val);
 			}
 			wrapper.add(thisLevel);
-//			if(current != null){
-//				System.out.println(current.val);
-//				queue.add(current.left);
-//				queue.add(current.right);
-//			}
 		}
 	}
 }

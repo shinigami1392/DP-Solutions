@@ -1,7 +1,7 @@
 package practice.solutions.ctci.graphs.trees;
 
 public class ValidareBST {
-    boolean isValid(TreeNode root){
+    /*boolean isValid(TreeNode root){
         if(root == null){
             return true;
         }
@@ -18,5 +18,5 @@ public class ValidareBST {
         {
             return isValid(root.right);
         }
-    }
+    }*/
 }

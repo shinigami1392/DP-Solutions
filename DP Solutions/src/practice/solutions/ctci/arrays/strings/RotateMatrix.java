@@ -17,7 +17,7 @@ public class RotateMatrix {
 
     public void rotateMatrix(int[][] matrix){
 
-        //TODO: Print before rotation
+        // Print before rotation
 
         for (int i = 0; i <matrix.length; i++){
             for (int j = 0; j < matrix.length; j++){
@@ -41,7 +41,7 @@ public class RotateMatrix {
 
         System.out.println();
 
-        //TODO: Print after rotation
+        // Print after rotation
         for (int i = 0; i <matrix.length; i++){
             for (int j = 0; j < matrix.length; j++){
                 System.out.print(matrix[i][j]+" ");

@@ -4,7 +4,7 @@ public class OneAway {
 	
 	public static void main(String[] args) {
 		OneAway oa = new OneAway();
-		System.out.println(oa.oneAway("pale", "aple"));
+		System.out.println(oa.oneAway("pale", "apla"));
 	}
 	
 	public boolean oneAway(String s1, String s2){

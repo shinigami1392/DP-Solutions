@@ -1,5 +1,11 @@
 package practice.solutions.ctci.arrays.strings;
 
+/**
+ * @author https://github.com/shinigami1392 [Pushkar Ladhe]
+ *
+ *
+ */
+
 public class ZeroMatrix {
     public void setZeroes(int[][] matrix) {
         boolean firstRow = false;

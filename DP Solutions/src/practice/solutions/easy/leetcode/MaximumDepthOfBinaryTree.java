@@ -1,5 +1,10 @@
 package practice.solutions.easy.leetcode;
 
+/**
+ * @author https://github.com/shinigami1392 [Pushkar Ladhe]
+ *
+ *
+ */
 public class MaximumDepthOfBinaryTree {
 	public int maxDepth(TreeNode root) {
         if(root == null){

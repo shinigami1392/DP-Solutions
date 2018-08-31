@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Queue;
 
 public class ListofDepths {
-    public List<LinkedList<Integer>> getListOfDepths(TreeNode root){
-        List<LinkedList<Integer>> sol = new ArrayList<>();
+    public List<Queue<Integer>> getListOfDepths(TreeNode root){
+        List<Queue<Integer>> sol = new ArrayList<>();
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
         while(!queue.isEmpty()){
